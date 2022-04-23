@@ -1,0 +1,52 @@
+* { 
+    margin: 0px;
+    border: 0px;
+    
+}
+
+/* img */
+main img {
+    height: 300px;
+    width: 300px;
+    display: inline;
+    grid-area: Portada de la serie;
+    grid-area: Billy, Mandy y Puro Hueso;
+    grid-template-areas: "Portada de la serie";
+}
+
+
+
+/* nav */
+body nav ul{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 20px;
+    border: 50px;
+    font-size: 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 1);
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+
+.menu {
+    background-color: black;
+    border: 20px;
+
+}
+
+.textoLorem{
+    overflow:scroll ;
+    height: 1000px;
+    width: 1000px;
+    background-color: darkslategray;
+
+}
+
+
+/* footer */
+footer {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 1);
+    background: linear-gradient(to right, rgb(99, 99, 30), rgb(114, 92, 92))
+}
