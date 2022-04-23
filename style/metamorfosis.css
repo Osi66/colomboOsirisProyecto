@@ -1,18 +1,13 @@
-* { 
-    margin: 0px;
-    border: 0px;
-    
-}
 
 /* img */
-main img {
-    height: 300px;
-    width: 300px;
-    display: inline;
-    grid-area: Portada de la serie;
-    grid-area: Billy, Mandy y Puro Hueso;
-    grid-template-areas: "Portada de la serie";
-}
+.imgInicio{
+    height: 250px;
+    width: 250px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr
+
+  
+} 
 
 body {
     background-image: url(https://us.123rf.com/450wm/sbhaumik/sbhaumik1505/sbhaumik150500444/40574413-la-sangre-humana-y-la-huella-digital-dejaron-pruebas-forenses-sobre-un-fondo-blanco.jpg?ver=6);
@@ -20,6 +15,7 @@ body {
 }
 
 /* nav */
+
 body nav ul{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: 20px;
@@ -29,16 +25,28 @@ body nav ul{
     display: flex;
     justify-content: space-between;
     position: sticky;
-    position: fixed;
-    align-items: center;
+    align-items:center;
+   
+
 }
 
+body nav ul li{
+    transition: all 1.5s;
+    
+
+}
+
+body nav ul li:hover{
+    background-color: darkred;
+    transform: scale(1.5,1.2);
+
+}
 
 .menu {
+    padding: 20px;
     border: 20px;
     font-family: 'Tapestry', cursive;
-    
-   
+
 }
 
 .textoLorem{
@@ -47,6 +55,7 @@ body nav ul{
     width: 1000px;
 
 }
+
 
 
 /* footer */
