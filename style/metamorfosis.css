@@ -14,7 +14,10 @@ main img {
     grid-template-areas: "Portada de la serie";
 }
 
-
+body {
+    background-image: url(https://us.123rf.com/450wm/sbhaumik/sbhaumik1505/sbhaumik150500444/40574413-la-sangre-humana-y-la-huella-digital-dejaron-pruebas-forenses-sobre-un-fondo-blanco.jpg?ver=6);
+    background-size: auto;
+}
 
 /* nav */
 body nav ul{
@@ -25,22 +28,23 @@ body nav ul{
     box-shadow: 0 0 30px rgba(0, 0, 0, 1);
     display: flex;
     justify-content: space-between;
-    
-    
+    position: sticky;
+    position: fixed;
+    align-items: center;
 }
 
 
 .menu {
-    background-color: black;
     border: 20px;
-
+    font-family: 'Tapestry', cursive;
+    
+   
 }
 
 .textoLorem{
     overflow:scroll ;
     height: 1000px;
     width: 1000px;
-    background-color: darkslategray;
 
 }
 
@@ -48,5 +52,5 @@ body nav ul{
 /* footer */
 footer {
     box-shadow: 0 0 15px rgba(0, 0, 0, 1);
-    background: linear-gradient(to right, rgb(99, 99, 30), rgb(114, 92, 92))
+
 }
