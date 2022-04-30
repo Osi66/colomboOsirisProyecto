@@ -50,12 +50,14 @@ body nav ul li:hover{
 }
 
 .textoLorem{
-    overflow:scroll ;
-    height: 1000px;
-    width: 1000px;
-
+    overflow:scroll;
+    font-size: 25px;
+    height: 400px;
 }
 
+.pj {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
 
 /* footer */
